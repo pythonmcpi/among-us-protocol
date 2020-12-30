@@ -119,20 +119,20 @@ Example:
 
 This refers to the customizable colors that a player can play as.
 
-| ID | Name |
-| --- | --- |
-| `0` | `RED` |
-| `1` | `BLUE` |
-| `2` | `GREEN` |
-| `3` | `PINK` |
-| `4` | `ORANGE` |
-| `5` | `YELLOW` |
-| `6` | `GREY` |
-| `7` | `WHITE` |
-| `8` | `PURPLE` |
-| `9` | `BROWN` |
-| `10` | `CYAN` |
-| `11` | `LIGHT_GREEN` |
+| ID | Name | RGB Value | Shaded RGB Value |
+| --- | --- | --- | --- |
+| `0` | `RED` | `198, 17, 17` | `122, 8, 56` |
+| `1` | `BLUE` | `19, 46, 210` | `9, 21, 142` |
+| `2` | `GREEN` | `17, 128, 45` | `10, 77, 46` |
+| `3` | `PINK` | `238, 84, 187` | `172, 43, 174` |
+| `4` | `ORANGE` | `240, 125, 13` | `180, 62, 21` |
+| `5` | `YELLOW` | `246, 246, 87` | `195, 136, 34` |
+| `6` | `GREY` | `63, 71, 78` | `30, 31, 38` |
+| `7` | `WHITE` | `215, 225, 241` | `132, 149, 192` |
+| `8` | `PURPLE` | `107, 47, 188` | `59, 23, 124` |
+| `9` | `BROWN` | `113, 73, 30` | `94, 38, 21` |
+| `10` | `CYAN` | `56, 255, 221` | `36, 169, 191` |
+| `11` | `LIGHT_GREEN` | `80, 240, 57` | `21, 168, 66` |
 
 ### `Hat`
 
@@ -234,6 +234,7 @@ This refers to the customizable hats that a player can wear.
 | `91` | `NINJA_MASK` |
 | `92` | `RAM_HORNS` |
 | `93` | `MINI_CREWMATE_SNOWMAN` |
+| `94` | `GEOFF_KEIGHLEY_MASK` |
 
 ### `Pet`
 
@@ -317,6 +318,8 @@ This refers to the various rooms and systems found throughout each map.
 ### `TaskType`
 
 This refers to the various types of tasks that a player can be assigned.
+
+For a list of all tasks on each map, see [Map-Specific IDs for Vents and Tasks](../07_miscellaneous/04_map_specific_ids_for_vents_and_tasks.md).
 
 | ID | Name |
 | --- | --- |
